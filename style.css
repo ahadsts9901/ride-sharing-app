@@ -1,0 +1,548 @@
+body {
+    background-color: #F5F5F4;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+:root {
+    --primary: #75BF7A;
+}
+/* Navigation Bar */
+
+
+.nav-bar {
+    margin-left: -80px;
+    margin-right: -80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 85px;
+    padding-bottom: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+.fa-bars {
+    display: none;
+}
+.tere-logo {
+    width: 180px;
+    height: 51px;
+}
+.nav-links {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 46px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-btn {
+    width: 180px;
+    height: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: var(--primary);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.nav-a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+
+/* Hero Section (Section 1) */
+
+.hero-section{
+    margin-top: 55px;
+    margin-bottom: 85px;
+    display: flex;
+}
+.hero-section > div {
+    width: 50%;
+    /* border: 1px solid red; */
+}
+.hero-div-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.hero-div-1 > h1 {
+    font-size: 61px;
+    font-weight: 800;
+    max-width: 650px;
+    width: 100%;
+}
+.hero-div-1 > p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #9E9DA2;
+    max-width: 550px;
+    width: 100%;
+}
+.hero-div-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.hero-sec-img {
+    max-width: 550px;
+    max-height: 580px;
+    width: 100%;
+    height: auto;
+}
+.hero-sec-btns {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.black-btn {
+    max-width: 260px;
+    width: 100%;
+    height: 67px;
+    font-size: 24px;
+    font-weight: 800;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* input section (Section 2) */
+
+.sec-2 {
+    /* max-width: 1300px;
+    max-height: 166px; */
+    /* width: 100%; */
+  /*  height: 100%; */
+    padding-left: 72px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-right: 70px;
+    background-color: var(--primary);
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: ; */
+    /* align-items: center; */
+    gap: 122px;
+    /* flex-wrap: wrap; */
+}
+.sec-2 > p {
+    font-weight: 600;
+    font-size: 25px;
+    max-width: 246px;
+    width: 100%;
+    max-height: 56px;
+    height: 100%;
+    color: white;
+    /* border: 1px solid red; */
+}
+.input-sec {
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 11px; 
+    flex-wrap: wrap;
+}
+.input-sec > input {
+    max-width: 499px;
+    width: 100%;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 35px;
+    font-size: 20px;
+    display: flex;
+    flex-shrink: 0;
+}
+.hero-div-3 {
+    margin-top: 128px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-div-3  h2 {
+    font-size: 46px;
+    font-weight: 800;
+}
+.hero-div-3  p {
+    font-size: 23px;
+    font-weight: 500;
+    max-width: 620px;
+    max-height: 96px;
+    width: 100%;
+    height: 100%;
+    color: #9E9DA2;
+}
+.hero-div-3  .tere {
+    color: var(--primary);
+}
+/* How tere works (section 3) */
+.sec-3 {
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sec-3 div {
+    width: 30%;
+    /* border: 1px solid red; */
+}
+.sec-3-left {
+    display: flex;
+    flex-direction: column;
+}
+.sec-3-left div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    text-align: right;
+    align-items: flex-end;
+}
+.sec-3-left img {
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+    height: 100%;
+}
+.sec-3-left h3 {
+    font-size: 22px;
+    font-weight: 800;
+}
+.sec-3-left p {
+    color: #9E9DA2;
+    font-size: 20px;
+}
+
+.sec-3-center {
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-3 > img {
+    max-width: 279px;
+    max-height: 560px;
+    width: 100%;
+    height: 100%;
+}
+.sec-3-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 22px;
+}
+.sec-3-right div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sec-3-right img {
+    max-width: 60px;
+    max-height: 60px;
+    width: 100%;
+    height: 100%;
+}
+.sec-3-right h3 {
+    font-size: 22px;
+    font-weight: 800;
+}
+.sec-3-right p {
+    color: #9E9DA2;
+    font-size: 20px;
+}
+/* Benefits of tere (section 4) */
+.sec-4 {
+    margin-top: 185px;
+    width: inherit;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 150px;
+}
+.sec-4 span {
+    color: var(--primary);
+}
+.sec-4 h2 {
+    font-size: 46px;
+    font-weight: 800;
+}
+.benefit-card {
+    width: 80%;
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    margin-right: auto;
+}
+
+.right {
+    margin-left: auto;
+}
+.num {
+    font-size: 88px;
+    font-weight: 500;
+}
+.sec-4-h3 {
+    font-size: 34px;
+    font-weight: 600;
+}
+.sec-4-p {
+    font-size: 22px;
+    font-weight: 500;
+    color: #9E9DA2;
+    max-width: 520px;
+    width: 100%;
+}
+.footer {
+    /* border: 1px solid red; */
+    margin-left: -80px;
+    margin-right: -80px;
+    background-color: white;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .f-img {
+    width: 131px;
+    height: 37px;
+}
+.footer .f-p {
+    color: #8B8BA5;
+}
+.footer-sec-btn {
+    width: 40%;
+    display: flex;
+    gap: 41px;
+    flex-wrap: wrap;
+}
+.All-Rights {
+    width: 100%;
+    height: auto;
+    font-size: 16px;
+    font-weight: 400;
+    /* border: 1px solid red; */
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.black-btn {
+    transition: 0.3s ease;
+}
+.black-btn:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 850px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .nav-links {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        font-size: 28px;
+    }
+    .nav-bar {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    /* hero-sec (Section 1)*/
+    .hero-section {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .hero-section > div {
+        width: 100%;
+    }
+    .hero-div-1 {
+        align-items: center;
+    }
+    .hero-div-1 > h1 {
+        font-size: 38px;
+        max-width: 100%;
+    }
+    .hero-div-1 > p {
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .hero-sec-btns {
+        justify-content: center;
+    }
+    .hero-sec-img {
+        max-width: 380px;
+        width: 100%;
+        height: auto;
+        height: auto;
+    }
+
+    /* input section (Section 2) */
+    .sec-2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+
+        padding: 30px 20px;
+    }
+    .sec-2 > p {
+        max-width: 100%;
+        text-align: center;
+        font-size: 22px;
+    }
+    .input-sec {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 18px;
+    }
+    .input-sec > input {
+        width: 90%;
+        max-width: 400px;
+        height: 60px;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    .input-sec > button {
+        width: 90%;
+        max-width: 400px;
+        justify-content: center;
+    }
+
+    /* How tere works (section 3) */
+    .sec-3 {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .sec-3 div {
+        width: 100%;
+    }
+    .sec-3-center {
+        order: -1;
+        width: 300px !important;
+        height: 300px;
+        margin-bottom: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-pic {
+        max-width: 220px;
+        width: 100%;
+        height: auto;
+    }
+    .sec-3-left,
+    .sec-3-right {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .sec-3-left div,
+    .sec-3-right div {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sec-3-left h3,
+    .sec-3-right h3 {
+        font-size: 20px;
+    }
+    .sec-3-left p,
+    .sec-3-right p {
+        font-size: 17px;
+        max-width: 320px;
+    }
+    .sec-4 {
+        gap: 30px;
+    }
+    .sec-4 h2 {
+        text-align: center;
+        font-size: 38px;
+    }
+    /* Benefits of tere (section 4) */
+    .benefit-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
+    }
+    .benefit-card > div {
+        display: contents;
+    }
+    .sec-4-h3 {
+        font-size: 28px;
+    }
+    .benefit-card img {
+        order: 1;
+        max-width: 220px;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+    .sec-4-p {
+        order: 2;
+        font-size: 18px;
+        max-width: 320px;
+    }
+    .num {
+        font-size: 60px;
+    }
+     .footer {
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .footer-sec-btn {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-sec {
+        order: 1;
+    }
+}
